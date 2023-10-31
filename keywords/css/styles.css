@@ -1,0 +1,18 @@
+/* Set the background color to blue */
+body {
+    background-color: rgb(236, 16, 16);
+}
+
+/* Set the font family to Times New Roman */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Times New Roman", Times, serif;
+    color: yellow;
+    /* Set the text color to yellow */
+}

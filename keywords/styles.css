@@ -1,0 +1,18 @@
+body{
+    background-color:black;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#particles:after {
+    content: "  ";
+    position: absolute;
+    top: -2000px;
+    width: 2px;
+}
+
+
