@@ -1,0 +1,352 @@
+/* Things that will be variables */
+
+/* colors 
+bright:#EDE3D9;
+muted:#364027;
+dark:#7F8C4D;
+light:#BFA995;
+intense:#BF5630;
+*/
+
+/* fonts
+ font-family: 'Roboto',
+ sans-serif;
+ font-family: 'Young Serif',
+ serif;
+ */
+
+:root {
+    --bright: #EDE3D9;
+    --muted: #364027;
+    --dark: #7F8C4D;
+    --light: #BFA995;
+    --intense: #BF5630;
+    --background: black;
+
+    --type: 'Roboto Flex', sans-serif;
+    --headings: 'Young Serif', serif;
+}
+
+body{
+    background: #EDE3D9;
+    color:#BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #EDE3D9;
+    padding: 20px;
+    width: 80%;
+    max-width: 10000px;
+    margin: 10px auto;
+    border: 5px solid #364027;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-item {
+    text-align: center;
+    margin-top: 4px;
+    /* Center the content horizontally */
+}
+
+.image-name {
+    color: #BF5630;
+        font-size: x-large;
+        font-family: 'Roboto',
+            sans-serif;
+    text-align: center;
+    margin-top: 2px;
+    /* Add styles for the image name */
+    /* Change the text color as desired */
+}
+
+#salted-caramel-one {
+    text-align: center;
+    width: 100%;
+}
+
+#salted-caramel-two {
+    text-align: center;
+    width: 100%;
+}
+
+#salted-caramel-three {
+    text-align: center;
+    width: 100%;
+}
+
+#chocolate-peppermint-brownies-one {
+    text-align: center;
+    width: 100%;
+}
+
+#chocolate-peppermint-brownies-two {
+    text-align: center;
+    width: 100%;
+}
+
+#chocolate-peppermint-brownies-three {
+    text-align: center;
+    width: 100%;
+}
+
+#chocolate-raspberry-icebox-cake-one {
+    text-align: center;
+    width: 100%;
+}
+
+#chocolate-raspberry-icebox-cake-two {
+    text-align: center;
+    width: 100%;
+}
+
+#chocolate-raspberry-icebox-cake-three {
+    text-align: center;
+    width: 100%;
+}
+
+#air-fryer-basque-cheesecake-one {
+    text-align: center;
+    width: 100%;
+}
+
+#air-fryer-basque-cheesecake-two {
+    text-align: center;
+    width: 100%;
+}
+
+#air-fryer-basque-cheesecake-three {
+    text-align: center;
+    width: 100%;
+}
+
+#almond-cake-one {
+    text-align: center;
+    width: 100%;
+    float: right;
+}
+
+#almond-cake-two {
+    text-align: center;
+    width: 100%;
+}
+
+#almond-cake-three {
+    text-align: center;
+    width: 100%;
+}
+
+.main-text {
+    display: inline-block;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.text {
+    display: inline-block;
+    width: 67%;
+    vertical-align: right;
+    margin-top: -10px;
+    text-align: justify;
+    padding: 30px;
+}
+
+h1
+{
+    color: #364027;
+    font-family: 'Young Serif',
+    serif;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #364027;
+    font-family: 'Young Serif',
+        serif;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+h3 {
+    color: #364027;
+    font-family: 'Young Serif',
+        serif;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+
+h4 {
+    color: #364027;
+    font-family: 'Young Serif',
+        serif;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    background: #364027;
+    padding: 10px 10px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #EDE3D9;
+    border: 2px solid #364027;
+    border-radius: 20px;
+}
+
+nav a:hover, .button:hover{
+    color:#364027;
+    background: #EDE3D9;
+
+}
+
+
+img{
+    padding: 10px;
+    background: darkgray;
+    border: 4px solid #364027;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+#salted-caramel-four {
+    width: 100%;
+    float: left;
+    }
+
+#salted-caramel-five {
+    width: 40%;
+    float: right;
+}
+
+#salted-caramel-six {
+    width: 40%;
+    float: left;
+}
+
+#chocolate-peppermint-brownies-four {
+    width: 100%;
+    float: left;
+}
+
+#chocolate-peppermint-brownies-five {
+    width: 40%;
+    float: right;
+}
+
+#chocolate-peppermint-brownies-six {
+    width: 30%;
+    float: left;
+}
+
+#chocolate-raspberry-icebox-cake-four {
+    width: 100%;
+    float: left;
+}
+
+#chocolate-raspberry-icebox-cake-five {
+    width: 25;
+    float: right;
+}
+
+#chocolate-raspberry-icebox-cake-six {
+    width: 30%;
+    float: left;
+}
+
+#air-fryer-basque-cheesecake-four {
+    width: 100%;
+    float: left;
+}
+
+#air-fryer-basque-cheesecake-five {
+    width: 33%;
+    float: right;
+}
+
+#air-fryer-basque-cheesecake-six {
+    width: 35%;
+    float: left;
+}
+
+#almond-cake-four {
+    width: 100%;
+    float: left;
+}
+
+#almond-cake-five {
+    width: 40%;
+    float: left;
+}
+
+#almond-cake-six {
+    width: 40%;
+    float: right;
+}
+
+aside{
+    clear: both;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    overflow: auto;
+    border: 2 px black;
+    margin-right: 10px;
+}
+
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+ol{
+    list-style:square;
+}
+
+figcaption {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+       sans-serif;
+    text-align: center;
+}
