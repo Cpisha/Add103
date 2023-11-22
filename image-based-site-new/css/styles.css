@@ -1,0 +1,559 @@
+/* Things that will be variables */
+
+/* colors 
+bright:#EDE3D9;
+muted:#364027;
+dark:#7F8C4D;
+light:#BFA995;
+intense:#BF5630;
+*/
+
+/* fonts
+ font-family: 'Roboto',
+ sans-serif;
+ font-family: 'Young Serif',
+ serif;
+ */
+
+:root {
+    --bright: #EDE3D9;
+    --muted: #364027;
+    --dark: #7F8C4D;
+    --light: #BFA995;
+    --intense: #BF5630;
+    --background: black;
+
+    --type: 'Roboto Flex', sans-serif;
+    --headings: 'Young Serif', serif;
+}
+
+body{
+    background: #EDE3D9;
+    color:#BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #EDE3D9;
+    padding: 20px;
+    width: 80%;
+    max-width: 10000px;
+    margin: 10px auto;
+    border: 5px solid #364027;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.image-item {
+    text-align: center;
+    margin-top: 4px;
+    /* Center the content horizontally */
+}
+
+.image-name {
+    color: #BF5630;
+        font-size: x-large;
+        font-family: 'Roboto',
+            sans-serif;
+    text-align: center;
+    margin-top: 2px;
+    /* Add styles for the image name */
+    /* Change the text color as desired */
+}
+
+.image-name-1 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    text-align: right;
+    margin-top: 2px;
+    margin-right: 90px;
+    /* Add styles for the image name */
+    /* Change the text color as desired */
+}
+
+.image-name-2 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 120px;
+    /* Add styles for the image name */
+    /* Change the text color as desired */
+}
+
+#mandarin-orange-salad-celery {
+    text-align: center;
+    width: 100%;
+}
+
+#mandarin-orange-salad-2 {
+    text-align: center;
+    width: 100%;
+}
+
+#mandarin-orange-salad-romaine {
+    text-align: center;
+    width: 100%;
+}
+
+#beef-brisket-meat {
+    text-align: center;
+    width: 100%;
+}
+
+#barbecue-sign {
+    text-align: center;
+    width: 100%;
+}
+
+#beef-brisket-fire {
+    text-align: center;
+    width: 100%;
+}
+
+#cabbage {
+    text-align: center;
+    width: 100%;
+}
+
+#onions {
+    text-align: center;
+    width: 100%;
+}
+
+#peppers {
+    text-align: center;
+    width: 100%;
+}
+
+#bananas {
+    text-align: center;
+    width: 100%;
+}
+
+#banana-bread-1 {
+    text-align: center;
+    width: 100%;
+}
+
+#banana-bread-2 {
+    text-align: center;
+    width: 100%;
+}
+
+#pumpkins {
+    text-align: center;
+    width: 100%;
+    float: right;
+}
+
+#cranberries {
+    text-align: center;
+    width: 100%;
+}
+
+#mini-pumpkin-cranberry-bread {
+    text-align: center;
+    width: 100%;
+}
+
+.main-text {
+    display: inline-block;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: -20px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.text {
+    display: inline-block;
+    width: 67%;
+    vertical-align: right;
+    margin-top: -10px;
+    text-align: justify;
+    padding: 30px;
+}
+
+h1
+{
+    color: #364027;
+    font-family: 'Young Serif',
+    serif;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #364027;
+    font-family: 'Young Serif',
+        serif;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+h3 {
+    color: #364027;
+    font-family: 'Young Serif',
+        serif;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+
+}
+
+h4 {
+    color: #364027;
+    font-family: 'Young Serif',
+        serif;
+    margin-top: 10px;
+    margin-bottom: -0px;
+}
+
+h5 {
+    color:black;
+    font-family: 'Young Serif',
+    serif;
+    font-size: small;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    
+}
+h6 {
+    width: 20%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    float: right;
+}
+
+h7 {
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+    margin-left:50px ;
+    margin-top: -10px;
+    
+}
+
+
+
+nav{
+    text-align: center;
+    line-height: 3;
+}
+
+nav a, .button{
+    background: #364027;
+    padding: 10px 10px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #EDE3D9;
+    border: 2px solid #364027;
+    border-radius: 20px;
+}
+
+nav a:hover, .button:hover{
+    color:#364027;
+    background: #EDE3D9;
+
+}
+
+
+img{
+    padding: 10px;
+    background: darkgray;
+    border: 4px solid #364027;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+#mandarin-orange-salad-3 {
+    width: 100%;
+    float: left;
+    }
+
+#mandarin-orange-salad-almonds {
+    width: 46%;
+    float: right;
+    margin-top: 30px;
+}
+
+#mandarin-orange-salad-onions {
+    width: 46%;
+    float: left;
+}
+
+#beef-brisket-meat-1 {
+    width: 100%;
+    float: left;
+    
+    
+}
+
+#beef-brisket-step-by-step-1 {
+    width: 40%;
+    float: left;
+    margin-top: 40px;
+}
+
+#barbecue-sauce {
+    width: 40%;
+    float: right;
+    margin-top: 0px;
+    }
+
+
+#cabbage-salad {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+#celery-seeds {
+    width: 46%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+#cabbage-salad-1 {
+    width: 46%;
+    float: right;
+}
+
+#banana-bread-3 {
+    width: 100%;
+    float: left;
+}
+
+#banana-bread-4 {
+    width: 46%;
+    float: left;
+    margin-bottom: 50px;
+       
+}
+
+#banana-bread-ingredients {
+    width: 46%;
+    float: right;
+}
+
+#pumpkin-loaf-fall {
+    width: 100%;
+    float: left;
+}
+
+#mini-pumpkin-cranberry-bread-1 {
+    width: 40%;
+    float: left;
+}
+
+#dry-ingredients-fall-pumpkin {
+    width: 40%;
+    float: right;
+    margin-top: 50px;
+}
+
+aside{
+    clear: both;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+    overflow: auto;
+    border: 2 px black;
+    margin-right: 10px;
+}
+
+
+header, footer{
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+
+ol{
+    list-style:square;
+}
+
+figcaption {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+       sans-serif;
+    text-align: center;
+    float: left;
+}
+
+.figcaption-1 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: -400px;
+    margin-top: 290px;
+
+}
+
+.figcaption-2 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: 530px;
+    margin-top: 5px;
+}
+
+.figcaption-3 {
+    color: #BF5630;
+        font-size: x-large;
+        font-family: 'Roboto',
+            sans-serif;
+        margin-left: -400px;
+        margin-top: 350px;
+}
+
+.figcaption-4 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: 600px;
+    margin-top: 5px;
+}
+
+.figcaption-5 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: -400px;
+    margin-top: 450px;
+}
+
+.figcaption-6 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: 670px;
+    margin-top: 5px;
+}
+
+.citation {
+    width: 100%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-right: 0px;
+    margin-left: 260px;
+
+}
+
+.citation-1 {
+    
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-style: italic;
+    font-size: small;
+    margin-top: -20px;
+    margin-left: -400px;
+   
+}
+
+.citation-2 {
+    width: 100%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-right: 0px;
+    margin-left: 340px;
+
+}
+
+.citation-3 {
+    width: 100%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+    float: right;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 1100px;
+}
+
+.citation-4 {
+    width: 40%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+   
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 140px;
+}
+
+.citation-5 {
+    width: 40%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 110px;
+}
