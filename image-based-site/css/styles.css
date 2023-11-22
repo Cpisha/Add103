@@ -80,78 +80,102 @@ body{
     /* Change the text color as desired */
 }
 
-#salted-caramel-one {
+.image-name-1 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    text-align: right;
+    margin-top: 2px;
+    margin-right: 90px;
+    /* Add styles for the image name */
+    /* Change the text color as desired */
+}
+
+.image-name-2 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 120px;
+    /* Add styles for the image name */
+    /* Change the text color as desired */
+}
+
+#mandarin-orange-salad-celery {
     text-align: center;
     width: 100%;
 }
 
-#salted-caramel-two {
+#mandarin-orange-salad-2 {
     text-align: center;
     width: 100%;
 }
 
-#salted-caramel-three {
+#mandarin-orange-salad-romaine {
     text-align: center;
     width: 100%;
 }
 
-#chocolate-peppermint-brownies-one {
+#beef-brisket-meat {
     text-align: center;
     width: 100%;
 }
 
-#chocolate-peppermint-brownies-two {
+#barbecue-sign {
     text-align: center;
     width: 100%;
 }
 
-#chocolate-peppermint-brownies-three {
+#beef-brisket-fire {
     text-align: center;
     width: 100%;
 }
 
-#chocolate-raspberry-icebox-cake-one {
+#cabbage {
     text-align: center;
     width: 100%;
 }
 
-#chocolate-raspberry-icebox-cake-two {
+#onions {
     text-align: center;
     width: 100%;
 }
 
-#chocolate-raspberry-icebox-cake-three {
+#peppers {
     text-align: center;
     width: 100%;
 }
 
-#air-fryer-basque-cheesecake-one {
+#bananas {
     text-align: center;
     width: 100%;
 }
 
-#air-fryer-basque-cheesecake-two {
+#banana-bread-1 {
     text-align: center;
     width: 100%;
 }
 
-#air-fryer-basque-cheesecake-three {
+#banana-bread-2 {
     text-align: center;
     width: 100%;
 }
 
-#almond-cake-one {
+#pumpkins {
     text-align: center;
     width: 100%;
     float: right;
 }
 
-#almond-cake-two {
+#cranberries {
     text-align: center;
     width: 100%;
 }
 
-#almond-cake-three {
+#mini-pumpkin-cranberry-bread {
     text-align: center;
     width: 100%;
 }
@@ -206,8 +230,41 @@ h4 {
     font-family: 'Young Serif',
         serif;
     margin-top: 10px;
-    margin-bottom: -10px;
+    margin-bottom: -0px;
 }
+
+h5 {
+    color:black;
+    font-family: 'Young Serif',
+    serif;
+    font-size: small;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    
+}
+h6 {
+    width: 20%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    float: right;
+}
+
+h7 {
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+    margin-left:50px ;
+    margin-top: -10px;
+    
+}
+
+
 
 nav{
     text-align: center;
@@ -243,79 +300,91 @@ img{
     margin: 10px;
 }
 
-#salted-caramel-four {
+#mandarin-orange-salad-3 {
     width: 100%;
     float: left;
     }
 
-#salted-caramel-five {
-    width: 40%;
+#mandarin-orange-salad-almonds {
+    width: 46%;
     float: right;
+    margin-top: 30px;
 }
 
-#salted-caramel-six {
-    width: 40%;
+#mandarin-orange-salad-onions {
+    width: 46%;
     float: left;
 }
 
-#chocolate-peppermint-brownies-four {
+#beef-brisket-meat-1 {
+    width: 100%;
+    float: left;
+    
+    
+}
+
+#beef-brisket-step-by-step-1 {
+    width: 40%;
+    float: left;
+    margin-top: 40px;
+}
+
+#barbecue-sauce {
+    width: 40%;
+    float: right;
+    margin-top: 0px;
+    }
+
+
+#cabbage-salad {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+#celery-seeds {
+    width: 46%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+#cabbage-salad-1 {
+    width: 46%;
+    float: right;
+}
+
+#banana-bread-3 {
     width: 100%;
     float: left;
 }
 
-#chocolate-peppermint-brownies-five {
-    width: 40%;
+#banana-bread-4 {
+    width: 46%;
+    float: left;
+    margin-bottom: 50px;
+       
+}
+
+#banana-bread-ingredients {
+    width: 46%;
     float: right;
 }
 
-#chocolate-peppermint-brownies-six {
-    width: 30%;
-    float: left;
-}
-
-#chocolate-raspberry-icebox-cake-four {
+#pumpkin-loaf-fall {
     width: 100%;
     float: left;
 }
 
-#chocolate-raspberry-icebox-cake-five {
-    width: 25;
-    float: right;
-}
-
-#chocolate-raspberry-icebox-cake-six {
-    width: 30%;
-    float: left;
-}
-
-#air-fryer-basque-cheesecake-four {
-    width: 100%;
-    float: left;
-}
-
-#air-fryer-basque-cheesecake-five {
-    width: 33%;
-    float: right;
-}
-
-#air-fryer-basque-cheesecake-six {
-    width: 35%;
-    float: left;
-}
-
-#almond-cake-four {
-    width: 100%;
-    float: left;
-}
-
-#almond-cake-five {
+#mini-pumpkin-cranberry-bread-1 {
     width: 40%;
     float: left;
 }
 
-#almond-cake-six {
+#dry-ingredients-fall-pumpkin {
     width: 40%;
     float: right;
+    margin-top: 50px;
 }
 
 aside{
@@ -349,4 +418,142 @@ figcaption {
     font-family: 'Roboto',
        sans-serif;
     text-align: center;
+    float: left;
+}
+
+.figcaption-1 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: -400px;
+    margin-top: 290px;
+
+}
+
+.figcaption-2 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: 530px;
+    margin-top: 5px;
+}
+
+.figcaption-3 {
+    color: #BF5630;
+        font-size: x-large;
+        font-family: 'Roboto',
+            sans-serif;
+        margin-left: -400px;
+        margin-top: 350px;
+}
+
+.figcaption-4 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: 600px;
+    margin-top: 5px;
+}
+
+.figcaption-5 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: -400px;
+    margin-top: 450px;
+}
+
+.figcaption-6 {
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    margin-left: 670px;
+    margin-top: 5px;
+}
+
+.citation {
+    width: 100%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-right: 0px;
+    margin-left: 260px;
+
+}
+
+.citation-1 {
+    
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-style: italic;
+    font-size: small;
+    margin-top: -20px;
+    margin-left: -400px;
+   
+}
+
+.citation-2 {
+    width: 100%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: -10px;
+    margin-right: 0px;
+    margin-left: 340px;
+
+}
+
+.citation-3 {
+    width: 100%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+    float: right;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 1100px;
+}
+
+.citation-4 {
+    width: 40%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+   
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 140px;
+}
+
+.citation-5 {
+    width: 40%;
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    font-style: italic;
+
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 110px;
 }
