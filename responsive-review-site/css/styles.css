@@ -1,0 +1,197 @@
+:root {
+    --bright: #EDE3D9;
+    --muted: #364027;
+    --dark: #7F8C4D;
+    --light: #BFA995;
+    --intense: #BF5630;
+    --background: black;
+
+    --type: 'Roboto Flex', sans-serif;
+    --headings: 'Young Serif', serif;
+}
+
+body {
+    background: #EDE3D9;
+    color: #BF5630;
+    font-size: x-large;
+    font-family: 'Roboto',
+        sans-serif;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 80%;
+    max-width: 10000px;
+    margin: 10px auto;
+    border: 5px solid #364027;
+   }
+
+p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+h1 {
+    color: #364027;
+    font-family: 'Young Serif',
+        serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #364027;
+    font-family: 'Young Serif',
+            serif;
+    text-align: center;
+}
+
+h3 {
+    color: #364027;
+    font-family: 'Young Serif',
+        serif;
+    text-decoration: underline;
+    
+}
+
+h4 {
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+
+}
+
+h5 {
+    color: black;
+    font-family: 'Young Serif',
+        serif;
+    font-size: small;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+
+}
+
+
+.container {
+    background: #EDE3D9;
+    padding: 20px;
+    width: 80%;
+    max-width: 10000px;
+    margin: 10px auto;
+}
+
+.masthead {
+    background-color: black;
+    color: #BF5630;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.mastfoot {
+    background-color: black;
+    color: #BF5630;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    padding: px;
+    text-align: center;
+}
+
+img {
+    height: 75%;
+    width: 85%;
+    padding: 10px;
+    background: #BF5630;
+    border: 4px solid #364027;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.image-name {
+    color: #BF5630;
+        font-size: large;
+        font-family: 'Roboto',
+            sans-serif;
+    
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2px;
+    /* Add styles for the image name */
+    /* Change the text color as desired */
+}
+
+#exterior-lights{
+    height: 60%;
+}
+
+#spencer-manager {
+    height: 400px;
+}
+
+#cameron-owner {
+    height: 400px;
+}
+
+#tanner-staff {
+    height: 400px;
+}
+
+
+
+.carousel-item{
+    width: 70%;
+    height: 50%;
+    margin-left:  250px;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 50%;
+    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    width: 100%;
+    background-color: #364027;
+    box-sizing: border-box;
+
+}
+
+.grid-container>div,
+.cont {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    min-height: 10px;
+    width: 100%;
+    font-size: 30px;
+}
+
+.grid-container>div>img {
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+
+#large {
+    box-sizing: border-box;
+    padding: 20px;
+    background: #364027;
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+}
